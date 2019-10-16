@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>0055AA434088FEEF8B59F48ACD89D458</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-0ACF33F84197CC8C376AE78CDD54332A_0000</CrashGUID>
+		<ProcessId>7504</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>6000</SecondsSinceStart>
+		<GameName>UE4-FortniteGame</GameName>
+		<ExecutableName>FortniteClient-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID>14b7ef4b5c9644f091814a2c511850b0</GameSessionID>
+		<Symbols>**Fortnite*Release-11.00-CL-9603448-Win64-Shipping</Symbols>
+		<PlatformName>WindowsClient</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName>Fortnite</DeploymentName>
+		<EngineVersion>4.24.0-9603448+++Fortnite+Release-11.00</EngineVersion>
+		<CommandLine>-USEALLAVAILABLECORES -NoRHIThread -NOSPLASH -PREFERREDPROCESSOR -8 -NOTEXTURESTREAMING -FULLSCREEN -limitclientticks -steamimportavailable -epicusername=GrayGray72 -epicuserid=e4efd30006b340b188691c46b93442dc -epiclocale=en-US -noeac -fromfl=be -fltoken=43e359605b7d8980d5903fha -frombe</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++Fortnite+Release-11.00-CL-9603448</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName>gfarm</UserName>
+		<BaseDir>C:/Program Files/Epic Games/Fortnite/FortniteGame/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/Fortnite/</RootDir>
+		<MachineId>2F14032D469E66C3C5E740839FC4FE04</MachineId>
+		<LoginId>2f14032d469e66c3c5e740839fc4fe04</LoginId>
+		<EpicAccountId>e4efd30006b340b188691c46b93442dc</EpicAccountId>
+		<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+		<CallStack>FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+FortniteClient_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>FortniteClient-Win64-Shipping 0x0000000035e80000 + 23048bc FortniteClient-Win64-Shipping 0x0000000035e80000 + 22beb2d FortniteClient-Win64-Shipping 0x0000000035e80000 + 226f507 FortniteClient-Win64-Shipping 0x0000000035e80000 + 226f408 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21ed9d1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 22f33fa FortniteClient-Win64-Shipping 0x0000000035e80000 + 21fe042 FortniteClient-Win64-Shipping 0x0000000035e80000 + f9eb1e FortniteClient-Win64-Shipping 0x0000000035e80000 + f9e77e FortniteClient-Win64-Shipping 0x0000000035e80000 + f95b34 FortniteClient-Win64-Shipping 0x0000000035e80000 + f71b62 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f07815 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f07e00 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f0b143 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f073e0 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f14ffb FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f1463a FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f1af8a FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</PCallStack>
+		<PCallStackHash>61A80AC8A2B13438D4BEC48CEC46410609355C05</PCallStackHash>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<ErrorMessage>Assertion failed: [File:Unknown] [Line: 186] Ran out of memory allocating 8172146688 bytes with alignment 0</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage>We are very sorry that this crash occurred. Our goal is to prevent crashes like this from occurring in the future. Please help us track down and fix this crash by providing detailed information about what you were doing so that we may reproduce the crash and fix it quickly. You can also get help at &lt;a id=&quot;browser&quot; href=&quot;http://fortnitehelp.epicgames.com&quot; style=&quot;Hyperlink&quot;&gt;Fortnite Help&lt;/&gt;. Thanks for your help in improving Fortnite.</CrashReporterMessage>
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD FX-8370E Eight-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1050 Ti</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 1809)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName>Athena_GameState_C</GameStateName>
+		<MemoryStats.TotalPhysical>17160523776</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>4001431552</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140673630380032</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>8660127744</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>10463830016</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>10276433920</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>18481983488</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>1</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>8172146688</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<Threads>
+			<Thread>
+				<CallStack>FortniteClient-Win64-Shipping 0x0000000035e80000 + 248abc2 FortniteClient-Win64-Shipping 0x0000000035e80000 + 137320b FortniteClient-Win64-Shipping 0x0000000035e80000 + 1345f25 FortniteClient-Win64-Shipping 0x0000000035e80000 + 133c99b FortniteClient-Win64-Shipping 0x0000000035e80000 + 1388fe4 FortniteClient-Win64-Shipping 0x0000000035e80000 + 1aa2655 FortniteClient-Win64-Shipping 0x0000000035e80000 + 3c36bff FortniteClient-Win64-Shipping 0x0000000035e80000 + 3c40e61 FortniteClient-Win64-Shipping 0x0000000035e80000 + 368b429 FortniteClient-Win64-Shipping 0x0000000035e80000 + 336b899 FortniteClient-Win64-Shipping 0x0000000035e80000 + 3293068 FortniteClient-Win64-Shipping 0x0000000035e80000 + 16dbe20 FortniteClient-Win64-Shipping 0x0000000035e80000 + 3c941d FortniteClient-Win64-Shipping 0x0000000035e80000 + 3cfc3c FortniteClient-Win64-Shipping 0x0000000035e80000 + 3cfc6a FortniteClient-Win64-Shipping 0x0000000035e80000 + 3da5a9 FortniteClient-Win64-Shipping 0x0000000035e80000 + 46088e2 KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1596</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12148</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8968</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7364</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3212</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12604</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4044</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9820</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12356</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13016</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12944</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10492</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13044</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2444</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11540</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12192</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7732</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2fc7c45 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11248</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11364</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9148</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13300</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7340</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2764</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11164</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5936</ThreadID>
+				<ThreadName>TaskGraphThreadHP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11468</ThreadID>
+				<ThreadName>TaskGraphThreadHP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12448</ThreadID>
+				<ThreadName>TaskGraphThreadHP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2232</ThreadID>
+				<ThreadName>TaskGraphThreadHP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3520</ThreadID>
+				<ThreadName>TaskGraphThreadHP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6804</ThreadID>
+				<ThreadName>TaskGraphThreadHP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11828</ThreadID>
+				<ThreadName>TaskGraphThreadBP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9444</ThreadID>
+				<ThreadName>TaskGraphThreadBP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12692</ThreadID>
+				<ThreadName>TaskGraphThreadBP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10320</ThreadID>
+				<ThreadName>TaskGraphThreadBP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10264</ThreadID>
+				<ThreadName>TaskGraphThreadBP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4829 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d6fbc FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5720</ThreadID>
+				<ThreadName>TaskGraphThreadBP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10728</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6256</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10932</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13048</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10292</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2400</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4752</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3996</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 22c7370 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12396</ThreadID>
+				<ThreadName>FAsyncWriter_FortniteGame</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2b33f0d FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11536</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 39f3fa6 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10980</ThreadID>
+				<ThreadName>LibwebsocketsThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 7176a6 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8080</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadMcp DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 23054c0 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2ffc3f4 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7300</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11060</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1548</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12876</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9812</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>nvspcap64 0x00000000b47a0000 + 2051f nvspcap64 0x00000000b47a0000 + 20218 nvspcap64 0x00000000b47a0000 + 395ab nvspcap64 0x00000000b47a0000 + 3e084 nvwgf2umx 0x00000000a5160000 + 41361c nvwgf2umx 0x00000000a5160000 + 262a74 nvwgf2umx 0x00000000a5160000 + 263cae d3d11 0x00000000dee70000 + 4215b d3d11 0x00000000dee70000 + 41bb2 dxgi 0x00000000e0d20000 + 1a8a9 dxgi 0x00000000e0d20000 + 19b56 dxgi 0x00000000e0d20000 + 49df FortniteClient-Win64-Shipping 0x0000000035e80000 + 270250e FortniteClient-Win64-Shipping 0x0000000035e80000 + 270ad67 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2c9721b FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4753 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2ce080b FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12588</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + a3074 ntdll 0x00000000e5f70000 + 4e20b ntdll 0x00000000e5f70000 + 4e0fe ntdll 0x00000000e5f70000 + 4df75 ntdll 0x00000000e5f70000 + 9bbc ntdll 0x00000000e5f70000 + 9ad0 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2cb036f FortniteClient-Win64-Shipping 0x0000000035e80000 + 270b821 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2a41fbd FortniteClient-Win64-Shipping 0x0000000035e80000 + 2a5a865 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2a6291b FortniteClient-Win64-Shipping 0x0000000035e80000 + 2a52f11 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2a5f910 FortniteClient-Win64-Shipping 0x0000000035e80000 + 27f1307 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2a305fd FortniteClient-Win64-Shipping 0x0000000035e80000 + 2a22469 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4753 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2cdfe12 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2ce0838 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3828</ThreadID>
+				<ThreadName>RenderThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 23054c0 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2ce0957 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12596</ThreadID>
+				<ThreadName>RTHeartBeat 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11524</ThreadID>
+				<ThreadName>FHeartBeatThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f52202 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9500</ThreadID>
+				<ThreadName>FMessageBus.Router</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 23054c0 FortniteClient-Win64-Shipping 0x0000000035e80000 + 79c9a1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6508</ThreadID>
+				<ThreadName>MessageBusHeartbeatManager</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2352459 FortniteClient-Win64-Shipping 0x0000000035e80000 + 234d7ca FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4344</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6700</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10328</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8184</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5388</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10568</ThreadID>
+				<ThreadName>PoolThread 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236bd8 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13032</ThreadID>
+				<ThreadName>PoolThread 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 23054c0 FortniteClient-Win64-Shipping 0x0000000035e80000 + 36a3421 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8560</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230266a FortniteClient-Win64-Shipping 0x0000000035e80000 + 461fe3e VCRUNTIME140 0x00000000d3870000 + c6a0 ntdll 0x00000000e5f70000 + a477f ntdll 0x00000000e5f70000 + 4bef ntdll 0x00000000e5f70000 + 89e6 KERNELBASE 0x00000000e2030000 + 39129 FortniteClient-Win64-Shipping 0x0000000035e80000 + 23025e7 FortniteClient-Win64-Shipping 0x0000000035e80000 + 23048bc FortniteClient-Win64-Shipping 0x0000000035e80000 + 22beb2d FortniteClient-Win64-Shipping 0x0000000035e80000 + 226f507 FortniteClient-Win64-Shipping 0x0000000035e80000 + 226f408 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21ed9d1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 22f33fa FortniteClient-Win64-Shipping 0x0000000035e80000 + 21fe042 FortniteClient-Win64-Shipping 0x0000000035e80000 + f9eb1e FortniteClient-Win64-Shipping 0x0000000035e80000 + f9e77e FortniteClient-Win64-Shipping 0x0000000035e80000 + f95b34 FortniteClient-Win64-Shipping 0x0000000035e80000 + f71b62 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f07815 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f07e00 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f0b143 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f073e0 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f14ffb FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f1463a FortniteClient-Win64-Shipping 0x0000000035e80000 + 2f1af8a FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>12916</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9f7e4 KERNELBASE 0x00000000e2030000 + 383d3 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2306365 FortniteClient-Win64-Shipping 0x0000000035e80000 + 21d4732 FortniteClient-Win64-Shipping 0x0000000035e80000 + 310e5bb FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8564</ThreadID>
+				<ThreadName>AudioThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00000000e5f70000 + 9fde4 KERNELBASE 0x00000000e2030000 + 396c1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 2236ad1 FortniteClient-Win64-Shipping 0x0000000035e80000 + 230460b FortniteClient-Win64-Shipping 0x0000000035e80000 + 22fc1dc KERNEL32 0x00000000e5dc0000 + 17974 ntdll 0x00000000e5f70000 + 6a271</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1912</ThreadID>
+				<ThreadName>FGameThreadHitchHeartBeatThreaded</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>637068429545390000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (Release 1809)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\XINPUT1_3.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\X3DAudio1_7.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\FortniteClient-Win64-Shipping.exe
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\BattlEye\BEClient_x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\Vivox\Win64\vivoxsdk_x64.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\ThirdParty\Nvidia\Win64\GfeSDK.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Legacy_x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3_x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Clothing_x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEXFramework_x64.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\XAudio2_7.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Common_x64.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\ThirdParty\Discord\Win64\discord-rpc.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\oo2core_5_win64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\Vivox\Win64\ortp_x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\NvCloth_x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Cooking_x64.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\msvcp140.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxPvdSDK_x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxFoundation_x64.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\XAPOFX1_5.dll
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\VCRUNTIME140.dll
+C:\Program Files\Epic Games\Fortnite\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce GTX 1050 Ti</RHI.AdapterName>
+		<RHI.UserDriverVersion>436.30</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>26.21.14.3630</RHI.InternalDriverVersion>
+		<RHI.DriverDate>9-5-2019</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData>
+		<ScalabilityLevel>LowOrAbove</ScalabilityLevel>
+		<IsMinSpecOrAbove>true</IsMinSpecOrAbove>
+		<RunningRHIThread>true</RunningRHIThread>
+		<FullscreenMode>Fullscreen</FullscreenMode>
+		<GameSessionId>14b7ef4b5c9644f091814a2c511850b0</GameSessionId>
+		<GameStateClassName>Athena_GameState_C</GameStateClassName>
+		<ContextLocation>InGame</ContextLocation>
+		<IsIdle>false</IsIdle>
+		<NetworkType>Unknown</NetworkType>
+		<PlaylistName>Playlist_Respawn_24</PlaylistName>
+		<AthenaGamePhase>SafeZones_29_20</AthenaGamePhase>
+		<RegionId>NAE</RegionId>
+		<SubregionId>VA</SubregionId>
+		<AthenaPlayerStatus>Alive</AthenaPlayerStatus>
+		<PlayerLocation>-11720.323,1417.987,-385.393</PlayerLocation>
+		<AthenaMatchTimeSec>881.770691</AthenaMatchTimeSec>
+		<AthenaGamePhaseStep>StormHolding</AthenaGamePhaseStep>
+	</GameData>
+</FGenericCrashContext>
